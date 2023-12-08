@@ -13,6 +13,22 @@ public class WebDataFetcher : MonoBehaviour
 
     private async void Start()
     {
+        string xmlData = await FetchXmlDataFromUrl(url);
+        List<string> parsedData = ParseXmlData(xmlData);
+        PopulateList(parsedData);
+        ScaleListToScreen();
+    }
+    
+    private async Task<string> FetchXmlDataFromUrl(string url)
+    {
+        using (WebClient client = new WebClient())
+        {
+            return await client.DownloadStringTaskAsync(url);
+        }
+    }
+
+    private List<string> ParseXmlData(string xmlData)
+    {
         
     }
 }

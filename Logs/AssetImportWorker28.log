@@ -185,3 +185,9 @@ Received Import Request.
   path: Assets/Scripts/WebDataFetcher.cs
   artifactKey: Guid(1c75cbc98a9870b44a7d1eb00d53034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/WebDataFetcher.cs using Guid(1c75cbc98a9870b44a7d1eb00d53034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4dd2f875d6da309e9f45fac55df71d') in 0.158688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 377.045427 seconds.
+  path: Assets/Scripts/WebDataFetcher.cs
+  artifactKey: Guid(1c75cbc98a9870b44a7d1eb00d53034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WebDataFetcher.cs using Guid(1c75cbc98a9870b44a7d1eb00d53034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2111ace40313e2863cc1dfad0b50b4') in 0.142303 seconds 
