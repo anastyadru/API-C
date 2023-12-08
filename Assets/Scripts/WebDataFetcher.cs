@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine.UI;
 using System.Xml;
-
+using System.Net;
 
 public class WebDataFetcher : MonoBehaviour
 {
