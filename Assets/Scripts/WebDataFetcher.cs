@@ -44,4 +44,16 @@ public class WebDataFetcher : MonoBehaviour
 
         return parsedData;
     }
+    
+    private void PopulateList(List<string> data)
+    {
+        foreach (string itemData in data)
+        {
+            Text listItem = Instantiate(listItemPrefab, contentTransform);
+            listItem.text = itemData;
+        }
+    }
+    
+    
+
 }
