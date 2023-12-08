@@ -112,3 +112,76 @@ System memory in use after: 98.5 MB.
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3125.
 Total: 124.632200 ms (FindLiveObjects: 0.554400 ms CreateObjectMapping: 0.386800 ms MarkObjects: 123.305000 ms  DeleteObjects: 0.382300 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.061470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.344 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 32.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3128.
+Total: 27.082700 ms (FindLiveObjects: 0.469100 ms CreateObjectMapping: 0.395600 ms MarkObjects: 26.004500 ms  DeleteObjects: 0.209400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.048063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.248 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3131.
+Total: 4.051000 ms (FindLiveObjects: 0.434100 ms CreateObjectMapping: 0.399800 ms MarkObjects: 3.128300 ms  DeleteObjects: 0.085900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 54885.682291 seconds.
+  path: Assets/Scripts/WebDataFetcher.cs
+  artifactKey: Guid(1c75cbc98a9870b44a7d1eb00d53034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WebDataFetcher.cs using Guid(1c75cbc98a9870b44a7d1eb00d53034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013749 seconds  code(4) message(Build asset version error: assets/scripts/webdatafetcher.cs in SourceAssetDB has modification time of '2023-12-08T16:14:23.6088894Z' while content on disk has modification time of '2023-12-08T16:16:17.6496126Z')
+  ERROR: Build asset version error: assets/scripts/webdatafetcher.cs in SourceAssetDB has modification time of '2023-12-08T16:14:23.6088894Z' while content on disk has modification time of '2023-12-08T16:16:17.6496126Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.047901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3134.
+Total: 9.210200 ms (FindLiveObjects: 0.414200 ms CreateObjectMapping: 0.578800 ms MarkObjects: 8.051400 ms  DeleteObjects: 0.162300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2148.657770 seconds.
+  path: Assets/Scripts/WebDataFetcher.cs
+  artifactKey: Guid(1c75cbc98a9870b44a7d1eb00d53034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WebDataFetcher.cs using Guid(1c75cbc98a9870b44a7d1eb00d53034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4dd2f875d6da309e9f45fac55df71d') in 0.158688 seconds 
