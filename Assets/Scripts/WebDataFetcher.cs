@@ -29,6 +29,19 @@ public class WebDataFetcher : MonoBehaviour
 
     private List<string> ParseXmlData(string xmlData)
     {
-        
+        List<string> parsedData = new List<string>();
+
+        XmlDocument xmlDoc = new XmlDocument();
+        xmlDoc.LoadXml(xmlData);
+
+        XmlNodeList nodeList = xmlDoc.GetElementsByTagName("item");
+
+        foreach (XmlNode node in nodeList)
+        {
+            string data = node.InnerText;
+            parsedData.Add(data);
+        }
+
+        return parsedData;
     }
 }
