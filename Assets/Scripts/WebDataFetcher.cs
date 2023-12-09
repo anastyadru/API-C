@@ -56,7 +56,7 @@ public class WebDataFetcher : MonoBehaviour
     
     private void ScaleListToScreen()
     {
-        RectTransform rectTransform = GetComponent<RectTransform>();
+        RectTransform rectTransform = contentTransform.GetComponent<RectTransform>();
         rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, Screen.height);
     }
 }
