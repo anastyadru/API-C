@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c75cbc98a9870b44a7d1eb00d53034b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://api.randomuser.me/?results=10   format=xml
+  url: http://api.openweathermap.org/data/2.5/weather?q=London,uk&mode=xml&appid=7fd4c3ee85f25bac0633405357a3573a
   listItemPrefab: {fileID: 1526443652}
   contentTransform: {fileID: 2113674011}
 --- !u!1 &803521164
